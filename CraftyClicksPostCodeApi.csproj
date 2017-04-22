@@ -45,8 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClsAddress.cs" />
-    <Compile Include="CraftyClicksMultipleAddressLoookup.cs" />
-    <Compile Include="CraftyClicksSingleAddressLookup.cs" />
+    <Compile Include="CraftyClicksBasicAddressLookup.cs" />
+    <Compile Include="CraftyClicksRapidAddressLoookup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

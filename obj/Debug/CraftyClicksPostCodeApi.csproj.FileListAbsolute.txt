@@ -4,3 +4,7 @@ C:\Projects\solitude\CraftyClicksPostCodeApi\CraftyClicksPostCodeApi\bin\Debug\N
 C:\Projects\solitude\CraftyClicksPostCodeApi\CraftyClicksPostCodeApi\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\solitude\CraftyClicksPostCodeApi\CraftyClicksPostCodeApi\obj\Debug\CraftyClicksPostCodeApi.dll
 C:\Projects\solitude\CraftyClicksPostCodeApi\CraftyClicksPostCodeApi\obj\Debug\CraftyClicksPostCodeApi.pdb
+C:\Projects\CraftyClicksPostCodeLookup\bin\Debug\CraftyClicksPostCodeApi.dll
+C:\Projects\CraftyClicksPostCodeLookup\bin\Debug\CraftyClicksPostCodeApi.pdb
+C:\Projects\CraftyClicksPostCodeLookup\obj\Debug\CraftyClicksPostCodeApi.dll
+C:\Projects\CraftyClicksPostCodeLookup\obj\Debug\CraftyClicksPostCodeApi.pdb

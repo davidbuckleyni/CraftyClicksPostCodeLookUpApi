@@ -19,14 +19,25 @@ namespace CraftyClicksPostCodeApi
         public List<ClsAddress> addressList = new List<ClsAddress>();
         public string mStatus { get; set; }
         public string mApiKey { get; set; }
-
+        public string url;
         public void GetRapidAddressByPostCode(string mPostCode)
         {
 
             mApiKey = ConfigurationManager.AppSettings["CraftyClicksApiKey"];
             string urlToApi = ConfigurationManager.AppSettings["CraftyClicksApiUrl"];
-            string url = String.Format(urlToApi + "?postcode={0}&response=data_formatted&key={1}",
+           
+
+            if (!String.IsNullOrEmpty(urlToApi))
+            {
+                 url = String.Format(urlToApi + "?postcode={0}&response=data_formatted&key={1}",
                   mPostCode, mApiKey);
+
+            }
+            else
+            {
+                 url = String.Format("http://pcls1.craftyclicks.co.uk/json/rapidaddress?postcode={0}&response=data_formatted&key={1}",
+              mPostCode, mApiKey);
+            }
 
 
 
@@ -118,7 +129,20 @@ namespace CraftyClicksPostCodeApi
                   mPostCode, mApiKey);
 
 
+            mApiKey = ConfigurationManager.AppSettings["CraftyClicksApiKey"];
+          
 
+            if (!String.IsNullOrEmpty(urlToApi))
+            {
+                url = String.Format(urlToApi + "?postcode={0}&response=data_formatted&key={1}",
+                 mPostCode, mApiKey);
+
+            }
+            else
+            {
+                url = String.Format("http://pcls1.craftyclicks.co.uk/json/rapidaddress?postcode={0}&response=data_formatted&key={1}",
+             mPostCode, mApiKey);
+            }
             //Complete XML HTTP Request
             WebRequest request = WebRequest.Create(url);
             //Complete XML HTTP Response
