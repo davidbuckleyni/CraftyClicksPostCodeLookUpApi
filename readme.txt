@@ -26,12 +26,12 @@
  Add the following propertie references:
 
         public static List<ClsAddress> addressList = new List<ClsAddress>();
-        public CraftyClicksMultipleAddressLoookup  _mCraftyClicks = new  CraftyClicksMultipleAddressLoookup();
+        public CraftyClicksRapidAddressLoookup  _mCraftyClicks = new  CraftyClicksRapidAddressLoookup();
 
 Step 4 
  On  a button click method or simlar can even been within a ajax panel 
 
-           _mCraftyClicks.GetAddressListByPostCode(txtPostCode.Text);
+           _mCraftyClicks.GetRapidAddressByPostCode(txtPostCode.Text);
             addressList = _mCraftyClicks.addressList;
 Thats is thats all there is two it feel free to play about with the various methods that are contained in the dll we will be functions 
 in due corse.
