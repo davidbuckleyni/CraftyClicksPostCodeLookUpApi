@@ -1,0 +1,11 @@
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\obj\Debug\CraftyClicksExampleApp.csprojResolveAssemblyReference.cache
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\obj\Debug\CraftyClicksExampleApp.csproj.CoreCompileInputs.cache
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\CraftyClicksExampleApp.exe.config
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\CraftyClicksExampleApp.exe
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\CraftyClicksExampleApp.pdb
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\CraftyClicksPostCodeApi.dll
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\obj\Debug\CraftyClicksExampleApp.exe
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\obj\Debug\CraftyClicksExampleApp.pdb
+C:\Projects\CraftyClicksPostCodeLookup\exampleapp\CraftClicksExampleApp\ConsoleApp1\bin\Debug\CraftyClicksPostCodeApi.pdb

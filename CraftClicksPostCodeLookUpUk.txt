@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>MyPackage</id>
+        <version>1.0.0</version>
+        <authors>David Buckley davidbuckleyweb@gmail.com</authors>
+       <description>Allows the lookup of uk postcodes via craftclicks uk.</description>
+
+  <dependencies>
+        <dependency id="Newtonsoft.Json" version="10.0.0.0" />
+    </dependencies>
+    </metadata>
+</package>

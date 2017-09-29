@@ -1,0 +1,7 @@
+C:\Projects\CraftyClicksPostCodeLookup\obj\Release\CraftyClicksPostCodeApi.csprojResolveAssemblyReference.cache
+C:\Projects\CraftyClicksPostCodeLookup\bin\Release\CraftyClicksPostCodeApi.dll
+C:\Projects\CraftyClicksPostCodeLookup\bin\Release\CraftyClicksPostCodeApi.pdb
+C:\Projects\CraftyClicksPostCodeLookup\bin\Release\Newtonsoft.Json.dll
+C:\Projects\CraftyClicksPostCodeLookup\bin\Release\Newtonsoft.Json.xml
+C:\Projects\CraftyClicksPostCodeLookup\obj\Release\CraftyClicksPostCodeApi.dll
+C:\Projects\CraftyClicksPostCodeLookup\obj\Release\CraftyClicksPostCodeApi.pdb

@@ -68,6 +68,8 @@ namespace CraftyClicksPostCodeApi
                         County = jsonResponseObject.postal_county,
                         PostCode = jsonResponseObject.postcode,
                         Town = jsonResponseObject.town
+                        
+                    
 
                     };
 
@@ -79,39 +81,41 @@ namespace CraftyClicksPostCodeApi
             {
                 //If no node details, there will be an error message. 
 
-                foreach (var node in jsonResponseObject)
-                {
-                    // Get the details of the error message and return it the user.
-                    switch ((string)node.Value)
-                    {
-                        case "0001":
-                            mStatus = "Post Code not found";
-                            break;
-                        case "0002":
-                            mStatus = "Invalid Post Code format";
-                            break;
-                        case "7001":
-                            mStatus = "Demo limit exceeded";
-                            break;
-                        case "8001":
-                            mStatus = "Invalid or no access token";
-                            break;
-                        case "8003":
-                            mStatus = "Account credit allowance exceeded";
-                            break;
-                        case "8004":
-                            mStatus = "Access denied due to access rules";
-                            break;
-                        case "8005":
-                            mStatus = "Access denied, account suspended";
-                            break;
-                        case "9001":
-                            mStatus = "Internal server error";
-                            break;
-                        default:
-                            mStatus = (string)node.Value;
-                            break;
-                    }
+
+              
+        foreach (var node in jsonResponseObject)
+        {
+            // Get the details of the error message and return it the user.
+            switch ((string)node.Value)
+            {
+                case "0001":
+                    mStatus = "Post Code not found";
+                    break;
+                case "0002":
+                    mStatus = "Invalid Post Code format";
+                    break;
+                case "7001":
+                    mStatus = "Demo limit exceeded";
+                    break;
+                case "8001":
+                    mStatus = "Invalid or no access token";
+                    break;
+                case "8003":
+                    mStatus = "Account credit allowance exceeded";
+                    break;
+                case "8004":
+                    mStatus = "Access denied due to access rules";
+                    break;
+                case "8005":
+                    mStatus = "Access denied, account suspended";
+                    break;
+                case "9001":
+                    mStatus = "Internal server error";
+                    break;
+                default:
+                    mStatus = (string)node.Value;
+                    break;
+            }
                 }
 
 
