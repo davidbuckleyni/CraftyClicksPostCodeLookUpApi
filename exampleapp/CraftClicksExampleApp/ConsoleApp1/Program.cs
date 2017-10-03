@@ -22,7 +22,7 @@ namespace CraftyClicksExampleApp
 
 
    
-            _mCraftyClicks.get(_inputPostCode);
+            _mCraftyClicks.GetRapidAddressByPostCode(_inputPostCode);
             addressList = _mCraftyClicks.addressList;
 
             string status = _mCraftyClicks.mStatus;
