@@ -17,14 +17,26 @@ namespace CraftyClicksExampleApp
 
             Console.Write("Please enter postcode :");
 
-        string _inputPostCode = "BT399YY";
+            string _inputPostCode = Console.ReadLine().Trim();
 
 
    
             _mCraftyClicks.GetRapidAddressByPostCode(_inputPostCode);
             addressList = _mCraftyClicks.addressList;
 
-            Console.Write(addressList.ToList());
+            string status = _mCraftyClicks.mStatus;
+
+            foreach (var node in addressList)
+            {
+                Console.Write("Address Line 1 " + node.AddressLine1 +"\n");
+                Console.Write("Address Line 2 " + node.AddressLine2 + "\n");
+                Console.Write("County " + node.County + "\n");
+                Console.Write("Post Code " + node.PostCode + "\n");
+
+            }
+            Console.Write("Error " + status);
+            Console.Read();
+            
 
         }
 }

@@ -20,6 +20,12 @@ namespace CraftyClicksPostCodeApi
         public string url;
         public void GetAddressFromPostCode(string postCode)
         {
+
+            try
+            {
+
+
+            
             string mPostCode = postCode;
             mApiKey = ConfigurationManager.AppSettings["CraftyClicksApiKey"];
             string urlToApi = ConfigurationManager.AppSettings["CraftyClicksSingleApiUrl"];
@@ -111,6 +117,13 @@ namespace CraftyClicksPostCodeApi
                             break;
                     }
                 }
+            }
+
+            }
+            catch (Exception ex)
+            {
+
+
             }
         }
         public async Task<List<ClsAddress>> GetBasicAddressFromPostCodeAsync(string postCode)
