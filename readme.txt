@@ -8,9 +8,9 @@
  
  Install via Nuget 
  
- https://www.nuget.org/packages/CraftyClicks.PostCode.Loookup/1.0.0
+ https://www.nuget.org/packages/CraftyClicks.PostCode.Loookup.1.0.1/1.0.1
  
- Install-Package CraftyClicks.PostCode.Loookup -Version 1.0.0
+ nstall-Package CraftyClicks.PostCode.Loookup.1.0.1 -Version 1.0.1
  
  Include the following two urls in the appsettings of your config file.
 
