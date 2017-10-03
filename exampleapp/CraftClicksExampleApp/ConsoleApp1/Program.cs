@@ -12,6 +12,7 @@ namespace CraftyClicksExampleApp
         static List<ClsAddress> addressList = new List<ClsAddress>();
         static CraftyClicksRapidAddressLoookup _mCraftyClicks = new CraftyClicksRapidAddressLoookup();
 
+        
         static void Main(string[] args)
         {
 
@@ -21,7 +22,7 @@ namespace CraftyClicksExampleApp
 
 
    
-            _mCraftyClicks.GetRapidAddressByPostCode(_inputPostCode);
+            _mCraftyClicks.get(_inputPostCode);
             addressList = _mCraftyClicks.addressList;
 
             string status = _mCraftyClicks.mStatus;

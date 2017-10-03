@@ -49,6 +49,8 @@ namespace CraftyClicksPostCodeApi
             //Declare and set a stream reader to read the returned XML
             StreamReader reader = new StreamReader(response.GetResponseStream());
 
+
+
             string json = reader.ReadToEnd();
             // Get the requests json object and convert it to in memory dynamic
             // Note: that you are able to convert to a specific object if required.
