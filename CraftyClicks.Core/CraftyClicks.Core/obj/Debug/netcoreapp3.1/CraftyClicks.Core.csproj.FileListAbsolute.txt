@@ -1,4 +1,3 @@
-D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Debug\netcoreapp3.1\CraftyClicks.Core.csprojAssemblyReference.cache
 D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Debug\netcoreapp3.1\CraftyClicks.Core.AssemblyInfoInputs.cache
 D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Debug\netcoreapp3.1\CraftyClicks.Core.AssemblyInfo.cs
 D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Debug\netcoreapp3.1\CraftyClicks.Core.csproj.CoreCompileInputs.cache

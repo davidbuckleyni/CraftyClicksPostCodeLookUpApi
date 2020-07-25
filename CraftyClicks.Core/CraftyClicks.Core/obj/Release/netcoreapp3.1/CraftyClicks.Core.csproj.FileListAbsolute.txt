@@ -1,0 +1,8 @@
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\bin\Release\netcoreapp3.1\CraftyClicks.Core.deps.json
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\bin\Release\netcoreapp3.1\CraftyClicks.Core.dll
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\bin\Release\netcoreapp3.1\CraftyClicks.Core.pdb
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Release\netcoreapp3.1\CraftyClicks.Core.AssemblyInfoInputs.cache
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Release\netcoreapp3.1\CraftyClicks.Core.AssemblyInfo.cs
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Release\netcoreapp3.1\CraftyClicks.Core.csproj.CoreCompileInputs.cache
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Release\netcoreapp3.1\CraftyClicks.Core.dll
+D:\GitMaster\CraftyClicks\CraftyClicks.Core\CraftyClicks.Core\obj\Release\netcoreapp3.1\CraftyClicks.Core.pdb
