@@ -1,12 +1,19 @@
-﻿Welcome to Crafty Clicks Api Nuget
- This has been upgraded to .net core 3.1 and u
+Welcome to Crafty Clicks Api Nuget
+ This Crafty Clicks api was Created by me David Buckley, to allow .net developers to use the super easy api by Crafty Clicks
+
+ The Crafty Clicks api allows you to look up uk address in single format and multiple to setup the Crafty Clicks in your web app
+ or dekstop app please make sure to complete the following setps.
+
+ 25/07/2020
+ Been upgraded to support .net core 3.1 (only)
+
  Step 1 
  
  Install via Nuget 
  
- https://www.nuget.org/packages/CraftyClicks.PostCode.Loookup.1.0.1/1.0.1
+ https://www.nuget.org/packages/CraftyClicks.PostCode.Loookup.1.0.2/1.0.2
  
- nstall-Package CraftyClicks.PostCode.Loookup.1.0.2 -Version 1.0.2
+ Install-Package CraftyClicks.PostCode.Loookup.1.0.2 -Version 1.0.2
  
  Include the following two urls in the appsettings of your config file.
 
@@ -41,4 +48,3 @@ in due corse.
 
 This nuget is not copyright Crafty Clicks but David Buckley Crafty Clicks do not support this nuget in any way.
       
-
